@@ -23,25 +23,26 @@ function solution2(arr)
 
 /**
 const arr = [1, 1, 3, 3, 0, 1, 1];
-// solution1: 5.186ms
+// solution1: 4.405ms
 console.time('solution1');
 console.log(solution1(arr));
 console.timeEnd('solution1');
 
-// solution2: 0.063ms
+// solution2: 5.426ms
 console.time('solution2');
 console.log(solution2(arr));
 console.timeEnd('solution2');
 */
 
+
 /**
 const arr = [4,4,4,3,3];
-// solution1: 4.957ms
+// solution1: 5.603ms
 console.time('solution1');
 console.log(solution1(arr));
 console.timeEnd('solution1');
 
-// solution2: 0.063ms
+// solution2: 5.385ms
 console.time('solution2');
 console.log(solution2(arr));
 console.timeEnd('solution2');
@@ -49,12 +50,12 @@ console.timeEnd('solution2');
 
 /**
 const arr = Array.from({ length: 100000 }, (_, i) => (i + 1) % 2);
-// solution1: 6.996ms
+// solution1: 7.959ms
 console.time('solution1');
 console.log(solution1(arr));
 console.timeEnd('solution1');
 
-// solution2: 1.751ms
+// solution2: 8,655ms
 console.time('solution2');
 console.log(solution2(arr));
 console.timeEnd('solution2');
