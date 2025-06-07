@@ -88,12 +88,12 @@ console.time('solution1');
 console.log(solution1(prices));
 console.timeEnd('solution1');
 
-// solution2: 7.953ms
+// solution2: 13.904ms
 console.time('solution2');
 console.log(solution2(prices));
 console.timeEnd('solution2');
 
-// solution3: 8.259ms
+// solution3: 15.493ms
 console.time('solution3');
 console.log(solution3(prices));
 console.timeEnd('solution3');
@@ -108,12 +108,12 @@ console.time('solution1');
 console.log(solution1(prices));
 console.timeEnd('solution1');
 
-// solution2: 16.976ms
+// solution2: 17.995ms
 console.time('solution2');
 console.log(solution2(prices));
 console.timeEnd('solution2');
 
-// solution3: 15.255ms
+// solution3: 20.459ms
 console.time('solution3');
 console.log(solution3(prices));
 console.timeEnd('solution3');
